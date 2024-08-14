@@ -121,7 +121,7 @@ h2 {
 .introduce__photo {
     width: 449px;
     height: 578px;
-    background-image: url('master/assets/images/photo.png');
+    background-image: url('../master/assets/images/photo.png');
     background-size: cover;
     border-radius: 30px;
     overflow: hidden;
