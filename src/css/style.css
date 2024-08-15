@@ -37,6 +37,7 @@ h1 {
     font-family: Prata, sans-serif;
     font-size: 72px;
     color: #00141A;
+    opacity: 80%;
     margin-bottom: 15px;
 }
 
@@ -45,6 +46,7 @@ h2 {
     font-size: 45px;
     text-align: center;
     color: #00141A;
+    opacity: 80%;
     margin-bottom: 80px;
 
 }
@@ -101,7 +103,7 @@ h2 {
 .header__phone {
     display: flex;
     align-items: center;
-    gap: 2.5px;
+    gap: 10px;
 }
 
 .line {
@@ -121,7 +123,7 @@ h2 {
 .introduce__photo {
     width: 449px;
     height: 578px;
-    background-image: url('../assets/images/photo.png');
+    background-image: url('../assets/images/photomain.png');
     background-size: cover;
     border-radius: 30px;
     overflow: hidden;
@@ -207,7 +209,7 @@ h2 {
 }
 
 .about__text {
-    max-width: 590px;
+    max-width: 589px;
 }
 
 .about__text {
@@ -225,7 +227,7 @@ h2 {
 .about__photo {
     width: 450px;
     height: 485px;
-    background-image: url('../assets/images/photo2.png');
+    background-image: url('../assets/images/photosecond.png');
     background-size: cover;
     border-radius: 30px;
     overflow: hidden;
@@ -317,7 +319,7 @@ h2 {
     display: flex;
     align-items: center;
     gap: 20px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 22px;
     color: #424242;
     margin-bottom: 15px;
@@ -326,10 +328,12 @@ h2 {
 .principles__text {
     margin-left: 55px;
     margin-bottom: 25px;
+    max-width: 739px;
 }
 
 .principles__paragraph {
     margin-top: 80px;
+    max-width: 794px;
 }
 
 .principles__paragraph p {
@@ -391,7 +395,6 @@ h2 {
 
 }
 
-
 .accordion-icon {
     display: inline-block;
     transition: transform 0.3s ease;
@@ -399,15 +402,25 @@ h2 {
 
 .accordion-icon svg {
     cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.accordion-icon svg:hover path {
+    filter: drop-shadow(0px 0px 2px rgba(1, 177, 226, 0.66));
 }
 
 .accordion-header.active .accordion-icon {
     transform: rotate(45deg);
 }
 
+.accordion-header.active .accordion-icon svg:hover path {
+    filter: drop-shadow(0px 0px 2px rgba(1, 177, 226, 0.66));
+}
+
 table.no-borders {
     width: 428px;
     border-collapse: collapse;
+    margin-bottom: 15px;
 }
 
 table.no-borders td {
