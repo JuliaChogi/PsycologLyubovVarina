@@ -30,6 +30,11 @@ html, body {
     src: url("../assets/fonts/Montserrat-Light.ttf");
 }
 
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url("../assets/fonts/Montserrat-SemiBold.ttf");
+}
+
 body {
     font-family: Montserrat, sans-serif;
     font-size: 18px;
@@ -366,30 +371,15 @@ h2 {
 
 .principles__paragraph p {
     margin-bottom: 20px;
-<<<<<<< HEAD
     font-weight: 400;
-=======
-    font-family: MontserratLight, sans-serif;
-    font-weight: 300;
->>>>>>> origin/master
     font-size: 18px;
     line-height: 125%;
     color: #424242;
 }
 
 .principles__paragraph p span {
-<<<<<<< HEAD
     font-weight: 600;
-    /*line-height: 140%;*/
-    /*color: #424242;*/
-    font-family: MontserratMedium, sans-serif;
-=======
-    /*font-weight: 600;*/
-    /*line-height: 140%;*/
-    /*color: #424242;*/
-    font-family: MontserratMedium, sans-serif;
-    font-weight: 500;
->>>>>>> origin/master
+    font-family: MontserratSemiBold, sans-serif;
     font-size: 18px;
     line-height: 22px;
     color: #424242;
