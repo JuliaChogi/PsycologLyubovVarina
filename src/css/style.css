@@ -20,6 +20,16 @@ html, body {
     src: url("../assets/fonts/Prata-Regular.ttf");
 }
 
+@font-face {
+    font-family: MontserratMedium;
+    src: url("../assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: MontserratLight;
+    src: url("../assets/fonts/Montserrat-Light.ttf");
+}
+
 body {
     font-family: Montserrat, sans-serif;
     font-size: 18px;
@@ -175,7 +185,7 @@ h2 {
 
 .introduce__item {
     position: relative;
-    padding-left: 20px;
+    padding-left: 31px;
 }
 
 .introduce__item::before {
@@ -297,6 +307,7 @@ h2 {
 }
 
 .advice__title span {
+    font-family: MontserratMedium, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 18px;
@@ -330,16 +341,22 @@ h2 {
     display: flex;
     align-items: center;
     gap: 20px;
-    font-weight: 600;
+    font-family: MontserratMedium, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 22px;
     color: #424242;
-    margin-bottom: 15px;
 }
 
 .principles__text {
     margin-left: 55px;
     margin-bottom: 25px;
-    max-width: 739px;
+    max-width: 744px;
+    font-family: MontserratLight, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 125%;
+    color: #424242;
 }
 
 .principles__paragraph {
@@ -349,11 +366,19 @@ h2 {
 
 .principles__paragraph p {
     margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #424242;
 }
 
 .principles__paragraph p span {
     font-weight: 600;
-    line-height: 140%;
+    /*line-height: 140%;*/
+    /*color: #424242;*/
+    font-family: MontserratMedium, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
     color: #424242;
 }
 
@@ -481,6 +506,7 @@ table.no-borders .bold-text {
 .mail:hover {
     filter: drop-shadow(0px 0px 8px rgba(47, 173, 248, 0.73));
 }
+
 
 footer {
     width: 100%;
