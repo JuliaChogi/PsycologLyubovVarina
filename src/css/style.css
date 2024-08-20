@@ -95,6 +95,16 @@ h2 {
     /*padding: 16px 0 24px 0;*/
 }
 
+.header__burger {
+    display: none;
+    cursor: pointer;
+}
+
+.menu__close {
+    display: none;
+    cursor: pointer;
+}
+
 .header a {
     font-size: 16px;
     color: #424242;
@@ -108,12 +118,15 @@ h2 {
 
 .header .container {
     display: flex;
-    /*justify-content: space-between;*/
     align-items: center;
 }
 
 .logo {
     margin: -5px;
+}
+
+.navigation.active {
+    display: block;
 }
 
 .navigation ul {
@@ -141,7 +154,6 @@ h2 {
 
 .introduce .container {
     display: flex;
-    /*justify-content: space-between;*/
     align-items: center;
 }
 
@@ -224,6 +236,7 @@ h2 {
     text-align: center;
 }
 
+
 .about {
     margin-top: 100px;
 }
@@ -258,6 +271,7 @@ h2 {
     border-radius: 30px;
     overflow: hidden;
 }
+
 
 .advice {
     margin-top: 100px;
@@ -434,9 +448,18 @@ h2 {
 
 }
 
+
 .accordion-icon {
     display: inline-block;
     transition: transform 0.3s ease;
+}
+
+.accordion-icon.icon-open {
+    transform: rotate(45deg);
+}
+
+.accordion-header.accordion-open {
+    /* Стили для активного аккордеона, если нужно */
 }
 
 .accordion-icon svg {
@@ -445,14 +468,6 @@ h2 {
 }
 
 .accordion-icon svg:hover path {
-    filter: drop-shadow(0px 0px 2px rgba(1, 177, 226, 0.66));
-}
-
-.accordion-header.active .accordion-icon {
-    transform: rotate(45deg);
-}
-
-.accordion-header.active .accordion-icon svg:hover path {
     filter: drop-shadow(0px 0px 2px rgba(1, 177, 226, 0.66));
 }
 
