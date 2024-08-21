@@ -1,9 +1,13 @@
+
+
+
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     cursor: default;
     transition: all 0.5s ease;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -40,6 +44,7 @@ body {
     font-size: 18px;
     background-color: #ffffff;
     color: #424242;
+
 }
 
 .container {
@@ -173,6 +178,7 @@ h2 {
     flex-direction: column;
     max-width: 587px;
     margin-left: 105px;
+
 }
 
 .introduce__text {
@@ -180,6 +186,7 @@ h2 {
     line-height: 140%;
     color: #424242;
     margin-bottom: 15px;
+    white-space: pre-line;
 }
 
 .introduce__subtext {
@@ -248,14 +255,12 @@ h2 {
 }
 
 .about__text {
-    max-width: 589px;
-}
-
-.about__text {
     display: flex;
     flex-direction: column;
     gap: 20px;
     line-height: 140%;
+    max-width: 589px;
+    white-space: pre-line;
 }
 
 .about__text span {
@@ -365,6 +370,7 @@ h2 {
     font-size: 18px;
     line-height: 22px;
     color: #424242;
+    margin-bottom: 20px;
 }
 
 .principles__text {
@@ -483,6 +489,7 @@ table.no-borders td {
 }
 
 table.no-borders .bold-text {
+    font-family: MontserratMedium, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 125%;
