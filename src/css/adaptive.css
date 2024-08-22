@@ -273,7 +273,7 @@
     .round__check {
         width: 52px;
         height: 52px;
-        left: calc(50% - 26px); /* Центрирование меньшего круга */
+        left: calc(50% - 26px);
         top: -26px;
     }
 
@@ -285,7 +285,7 @@
     .cover {
         width: 54px;
         height: 54px;
-        left: calc(50% - 26px); /* Центрирование меньшего круга */
+        left: calc(50% - 26px);
         top: -55px;
     }
 
@@ -477,6 +477,7 @@
         right: 0;
         z-index: 5;
         background: #F5F5F5;
+        min-height: 330px;
     }
 
     .navigation ul {
@@ -497,7 +498,7 @@
 
     h1 {
         font-weight: 400;
-        font-size: 36px;
+        /*font-size: 36px;*/
         line-height: 49px;
     }
 
@@ -751,7 +752,7 @@
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 46px;
     }
 
     table.no-borders {
@@ -765,6 +766,67 @@
         line-height: 125%;
         color: #424242;
         padding-left: 29px;
+    }
+}
+
+@media (max-width: 398px) {
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 390px) {
+    h1 {
+        font-size: 44px;
+    }
+}
+
+
+@media (max-width: 382px) {
+    h1 {
+        font-size: 43px;
+    }
+}
+
+@media (max-width: 374px) {
+    h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 366px) {
+    h1 {
+        font-size: 41px;
+    }
+}
+
+@media (max-width: 358px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 39px;
+    }
+}
+
+@media (max-width: 342px) {
+    h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 334px) {
+    h1 {
+        font-size: 37px;
+    }
+}
+
+@media (max-width: 330px) {
+    h1 {
+        font-size: 36px;
     }
 
 }
