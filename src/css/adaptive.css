@@ -258,6 +258,75 @@
     .container__small {
         max-width: 728px;
     }
+    .advice .container {
+        gap: 38px;
+        margin-bottom: 50px;
+    }
+
+    .advice__card {
+        width: 341px;
+        padding: 0 23px 39px 26px;
+        position: relative;
+    }
+
+    .round__check {
+        width: 52px;
+        height: 52px;
+        left: calc(50% - 26px); /* Центрирование меньшего круга */
+        top: -26px;
+    }
+
+    .round__check svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cover {
+        width: 54px;
+        height: 54px;
+        left: calc(50% - 26px); /* Центрирование меньшего круга */
+        top: -55px;
+    }
+
+    .advice__title {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 125%;
+        font-weight: 400;
+        color: #424242;
+    }
+
+    .advice__title span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        color: #01B1E2;
+    }
+
+    .advice__list {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 125%;
+        color: #424242;
+        margin-left: 9px;
+    }
+
+    .advice__item {
+        margin-bottom: 10px;
+        margin-left: 15px;
+        position: relative;
+    }
+
+    .advice__item::before {
+        width: 9px;
+        height: 9px;
+        left: -24px;
+        top: 9px;/* Центрирование маркера */
+        transform: translateY(-50%);
+        background-color: #000;
+        border-radius: 50%;
+    }
 
     .advice {
         margin-top: 90px;
@@ -271,18 +340,18 @@
         margin-bottom: 90px;
     }
 
-    .advice__item::before {
-        content: '';
-        position: absolute;
-        left: -30px;
-        top: 10px;
-        transform: translateY(-50%);
-        width: 9px;
-        height: 9px;
-        background-color: #000;
-        border-radius: 50%;
+    /*.advice__item::before {*/
+    /*    content: '';*/
+    /*    position: absolute;*/
+    /*    left: -30px;*/
+    /*    top: 10px;*/
+    /*    transform: translateY(-50%);*/
+    /*    width: 9px;*/
+    /*    height: 9px;*/
+    /*    background-color: #000;*/
+    /*    border-radius: 50%;*/
 
-    }
+    /*}*/
 
     .card3 {
         margin: 0 auto;
@@ -536,19 +605,23 @@
         line-height: 125%;
 
     }
+    .advice__list {
+        margin-left: 27px;
+    }
 
     .advice__item {
         font-weight: 400;
         font-size: 14px;
         line-height: 125%;
         margin-bottom: 7px;
+        margin-left: 0;
     }
 
     .advice__item::before {
         content: '';
         position: absolute;
         left: -30px;
-        top: 10px;
+        top: 9px;
         transform: translateY(-50%);
         width: 7px;
         height: 7px;
