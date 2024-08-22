@@ -340,16 +340,30 @@ h2 {
 }
 
 .advice__list {
-    margin-left: 26px;
+
+    list-style: none;
 }
 
 
 .advice__item {
     margin-bottom: 10px;
+    margin-left: 40px;
+    position: relative;
 }
 
-.advice__item::marker {
-    font-size: 26px;
+
+
+.advice__item::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+
 }
 
 .container__small {
@@ -398,7 +412,6 @@ h2 {
 }
 
 .principles__paragraph p span {
-    font-weight: 600;
     font-family: MontserratSemiBold, sans-serif;
     font-size: 18px;
     line-height: 22px;
