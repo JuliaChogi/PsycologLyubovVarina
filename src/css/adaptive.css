@@ -580,9 +580,9 @@
     }
 
     .round__check {
-        height: 42px;
-        width: 40px;
-        top: -21px;
+        height: 40px;
+        width: 42px;
+        top: -20px;
         left: calc(50% - 21px);
     }
 
