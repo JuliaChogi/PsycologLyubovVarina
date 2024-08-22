@@ -258,6 +258,7 @@
     .container__small {
         max-width: 728px;
     }
+
     .advice .container {
         gap: 38px;
         margin-bottom: 50px;
@@ -322,7 +323,7 @@
         width: 9px;
         height: 9px;
         left: -24px;
-        top: 9px;/* Центрирование маркера */
+        top: 9px; /* Центрирование маркера */
         transform: translateY(-50%);
         background-color: #000;
         border-radius: 50%;
@@ -350,9 +351,7 @@
     /*    height: 9px;*/
     /*    background-color: #000;*/
     /*    border-radius: 50%;*/
-
     /*}*/
-
     .card3 {
         margin: 0 auto;
     }
@@ -580,9 +579,9 @@
     }
 
     .round__check {
-        height: 40px;
-        width: 42px;
-        top: -20px;
+        height: 42px;
+        width: 40px;
+        top: -21px;
         left: calc(50% - 21px);
     }
 
@@ -605,6 +604,7 @@
         line-height: 125%;
 
     }
+
     .advice__list {
         margin-left: 27px;
     }

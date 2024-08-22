@@ -1,6 +1,4 @@
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -352,7 +350,6 @@ h2 {
 }
 
 
-
 .advice__item::before {
     content: '';
     position: absolute;
@@ -363,7 +360,6 @@ h2 {
     height: 10px;
     background-color: #000;
     border-radius: 50%;
-
 }
 
 .container__small {

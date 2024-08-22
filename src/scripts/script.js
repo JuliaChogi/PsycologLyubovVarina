@@ -46,11 +46,10 @@ $(document).ready(function () {
             });
         }
     }
+
     window.onload = removeBrOnSmallScreens;
 
     window.onresize = removeBrOnSmallScreens;
-
-
 
 
     window.addEventListener('resize', createAdaptiveBlock);
@@ -102,7 +101,6 @@ $(document).ready(function () {
             }
         }
     }
-
 });
 
 
